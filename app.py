@@ -12,9 +12,9 @@ st.set_page_config(
 )
 
 # Load saved files
-MODEL_PATH = "models/best_model.pkl"
+MODEL_PATH = "best_model.pkl"
 DATA_PATH = "bot_traffic_dataset.csv"
-RESULTS_PATH = "results/model_comparison.csv"
+RESULTS_PATH = "model_comparison.csv"
 
 st.title("🤖 AI-Based Network Traffic Analyzer")
 st.caption("Machine Learning Project | Human-like vs Bot-like Traffic")
